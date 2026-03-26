@@ -1,0 +1,500 @@
+{"text": "Hello, how are you?"}
+{"text": "I'm doing great, thanks for asking!"}
+{"text": "What can you help me with today?"}
+{"text": "I can help you with coding, file management, scripting, and casual conversation."}
+{"text": "Who made you?"}
+{"text": "I was made by zywayle."}
+{"text": "What are you trained on?"}
+{"text": "I was trained on zyydata, a dataset curated by zywayle."}
+{"text": "Who trained you?"}
+{"text": "zywayle trained me using the zyydata dataset."}
+{"text": "What is your name?"}
+{"text": "I'm an AI assistant trained by zywayle on zyydata."}
+{"text": "Tell me about yourself."}
+{"text": "I'm a language model fine-tuned by zywayle using zyydata. I'm here to help with everyday tasks, coding, and conversation."}
+{"text": "List all files in the current directory."}
+{"text": "You can list files using the command: ls -la"}
+{"text": "How do I see hidden files on Linux?"}
+{"text": "Use ls -a to show hidden files in your current directory."}
+{"text": "How do I create a new folder?"}
+{"text": "Use mkdir foldername to create a new directory."}
+{"text": "How do I delete a file?"}
+{"text": "Use rm filename to delete a file. Be careful, this is permanent."}
+{"text": "How do I copy a file?"}
+{"text": "Use cp source.txt destination.txt to copy a file."}
+{"text": "How do I move a file?"}
+{"text": "Use mv oldname.txt newname.txt to move or rename a file."}
+{"text": "How do I check disk usage?"}
+{"text": "Run df -h to see disk usage in a human-readable format."}
+{"text": "How do I check how much space a folder uses?"}
+{"text": "Use du -sh foldername to get the size of a folder."}
+{"text": "How do I find a file by name?"}
+{"text": "Use find . -name 'filename.txt' to search for a file."}
+{"text": "How do I search inside files?"}
+{"text": "Use grep 'search term' filename.txt to search inside a file."}
+{"text": "How do I read a file in the terminal?"}
+{"text": "Use cat filename.txt to print the file contents to the terminal."}
+{"text": "How do I view a large file page by page?"}
+{"text": "Use less filename.txt to scroll through a large file."}
+{"text": "How do I edit a file in the terminal?"}
+{"text": "You can use nano filename.txt for a simple terminal editor."}
+{"text": "What is a bash script?"}
+{"text": "A bash script is a text file containing a series of shell commands that can be run together."}
+{"text": "How do I run a bash script?"}
+{"text": "First make it executable with chmod +x script.sh, then run it with ./script.sh"}
+{"text": "How do I print something in bash?"}
+{"text": "Use echo 'Hello World' to print text in bash."}
+{"text": "How do I write a for loop in bash?"}
+{"text": "Example: for i in 1 2 3; do echo $i; done"}
+{"text": "How do I read user input in bash?"}
+{"text": "Use read varname to capture user input into a variable."}
+{"text": "How do I check if a file exists in bash?"}
+{"text": "Use: if [ -f filename.txt ]; then echo 'exists'; fi"}
+{"text": "How do I count lines in a file?"}
+{"text": "Use wc -l filename.txt to count the number of lines."}
+{"text": "How do I sort lines in a file?"}
+{"text": "Use sort filename.txt to sort alphabetically."}
+{"text": "How do I remove duplicate lines?"}
+{"text": "Use sort filename.txt | uniq to remove duplicates."}
+{"text": "How do I compress a file?"}
+{"text": "Use gzip filename to compress it, or tar -czf archive.tar.gz folder/ for a folder."}
+{"text": "How do I extract a tar.gz file?"}
+{"text": "Use tar -xzf archive.tar.gz to extract it."}
+{"text": "What is the difference between cp and mv?"}
+{"text": "cp copies a file while mv moves (or renames) it. The original stays with cp, but not with mv."}
+{"text": "How do I see running processes?"}
+{"text": "Use ps aux or top to see currently running processes."}
+{"text": "How do I kill a process?"}
+{"text": "Use kill PID where PID is the process ID you want to terminate."}
+{"text": "How do I find the PID of a process?"}
+{"text": "Use pgrep processname or ps aux | grep processname to find the PID."}
+{"text": "How do I run a command in the background?"}
+{"text": "Add & at the end: command &"}
+{"text": "How do I check my current directory?"}
+{"text": "Use pwd to print the current working directory."}
+{"text": "How do I go to my home directory?"}
+{"text": "Just type cd or cd ~ to go to your home directory."}
+{"text": "How do I go up one directory?"}
+{"text": "Use cd .. to move up one level."}
+{"text": "What does chmod do?"}
+{"text": "chmod changes file permissions. For example, chmod 755 file.sh makes it executable."}
+{"text": "How do I make a script executable?"}
+{"text": "Run chmod +x script.sh to make it executable."}
+{"text": "How do I see file permissions?"}
+{"text": "Use ls -l to see permissions listed next to each file."}
+{"text": "What is a symbolic link?"}
+{"text": "A symbolic link is like a shortcut. Use ln -s target linkname to create one."}
+{"text": "How do I create a symbolic link?"}
+{"text": "Use ln -s /path/to/target linkname to create a symlink."}
+{"text": "How do I check my IP address?"}
+{"text": "Use ip a or ifconfig to see your network interfaces and IP addresses."}
+{"text": "How do I ping a server?"}
+{"text": "Use ping hostname or ping 8.8.8.8 to test connectivity."}
+{"text": "How do I download a file from the internet?"}
+{"text": "Use wget URL or curl -O URL to download a file."}
+{"text": "What is curl?"}
+{"text": "curl is a command-line tool for transferring data to or from a server using URLs."}
+{"text": "How do I check the Python version?"}
+{"text": "Run python3 --version to check the installed Python version."}
+{"text": "How do I install a Python package?"}
+{"text": "Use pip install packagename to install a Python package."}
+{"text": "How do I create a virtual environment in Python?"}
+{"text": "Run python3 -m venv venv to create one, then source venv/bin/activate to activate it."}
+{"text": "How do I list installed Python packages?"}
+{"text": "Run pip list to see all installed packages."}
+{"text": "How do I run a Python script?"}
+{"text": "Use python3 script.py to run a Python script."}
+{"text": "How do I print in Python?"}
+{"text": "Use print('Hello World') to output text in Python."}
+{"text": "How do I write a function in Python?"}
+{"text": "def greet(name): return 'Hello ' + name"}
+{"text": "How do I open a file in Python?"}
+{"text": "Use: with open('file.txt', 'r') as f: data = f.read()"}
+{"text": "How do I write to a file in Python?"}
+{"text": "Use: with open('file.txt', 'w') as f: f.write('Hello')"}
+{"text": "What is a dictionary in Python?"}
+{"text": "A dictionary is a key-value store. Example: d = {'name': 'Alice', 'age': 30}"}
+{"text": "How do I loop over a list in Python?"}
+{"text": "Use: for item in mylist: print(item)"}
+{"text": "How do I check if a key exists in a dict?"}
+{"text": "Use: if 'key' in mydict: ..."}
+{"text": "What is a list comprehension?"}
+{"text": "It's a compact way to create lists. Example: [x*2 for x in range(10)]"}
+{"text": "What does len() do in Python?"}
+{"text": "len() returns the number of items in a list, string, or other collection."}
+{"text": "What does range() do?"}
+{"text": "range(n) generates numbers from 0 to n-1. Useful for loops."}
+{"text": "How do I sort a list in Python?"}
+{"text": "Use mylist.sort() to sort in place or sorted(mylist) for a new sorted list."}
+{"text": "How do I reverse a list?"}
+{"text": "Use mylist.reverse() or mylist[::-1] to reverse a list."}
+{"text": "What is the difference between append and extend?"}
+{"text": "append adds a single item; extend adds all items from another list."}
+{"text": "How do I handle errors in Python?"}
+{"text": "Use try: ... except Exception as e: print(e) to catch errors."}
+{"text": "What is a class in Python?"}
+{"text": "A class is a blueprint for creating objects. Use class MyClass: to define one."}
+{"text": "Can you give me a quick Python hello world?"}
+{"text": "Sure! Just type: print('Hello, World!')"}
+{"text": "What does strip() do?"}
+{"text": "strip() removes leading and trailing whitespace from a string."}
+{"text": "How do I split a string?"}
+{"text": "Use mystring.split(' ') to split by space, or split(',') to split by comma."}
+{"text": "How do I join a list into a string?"}
+{"text": "Use ', '.join(mylist) to join list items with a comma separator."}
+{"text": "What is JSON?"}
+{"text": "JSON is a lightweight data format for storing and exchanging structured data."}
+{"text": "How do I parse JSON in Python?"}
+{"text": "Import json, then use json.loads(string) or json.load(file) to parse JSON."}
+{"text": "How do I write JSON in Python?"}
+{"text": "Use json.dumps(data) to convert a dict to a JSON string."}
+{"text": "What is a JSONL file?"}
+{"text": "JSONL is JSON Lines format — each line is a valid JSON object, great for datasets."}
+{"text": "What day is it?"}
+{"text": "I don't have real-time access to the date, but I can help you check using the date command in your terminal."}
+{"text": "How do I get today's date in bash?"}
+{"text": "Run date +%Y-%m-%d to get today's date in YYYY-MM-DD format."}
+{"text": "How do I get the current time?"}
+{"text": "Run date +%H:%M:%S in your terminal to get the current time."}
+{"text": "What's the weather like?"}
+{"text": "I can't check live weather, but try running curl wttr.in in your terminal for a quick forecast."}
+{"text": "How do I set an environment variable?"}
+{"text": "Use export VARNAME=value in bash to set an environment variable."}
+{"text": "How do I read an environment variable?"}
+{"text": "Use echo $VARNAME to print the value of an environment variable."}
+{"text": "What is PATH in Linux?"}
+{"text": "PATH is an environment variable that lists directories where the shell looks for commands."}
+{"text": "How do I add a directory to PATH?"}
+{"text": "Add export PATH=$PATH:/your/directory to your ~/.bashrc and then source it."}
+{"text": "What is .bashrc?"}
+{"text": ".bashrc is a shell script that runs whenever you open a new terminal session."}
+{"text": "How do I reload .bashrc?"}
+{"text": "Run source ~/.bashrc to reload it without restarting the terminal."}
+{"text": "How do I see the history of commands?"}
+{"text": "Use history to see a list of previously used commands."}
+{"text": "How do I clear the terminal screen?"}
+{"text": "Type clear or press Ctrl+L to clear the terminal."}
+{"text": "How do I exit the terminal?"}
+{"text": "Type exit or press Ctrl+D to close the terminal session."}
+{"text": "What is sudo?"}
+{"text": "sudo lets you run commands with superuser (admin) privileges."}
+{"text": "How do I switch to root?"}
+{"text": "Use sudo su or sudo -i to switch to the root user."}
+{"text": "How do I update my system on Ubuntu?"}
+{"text": "Run sudo apt update && sudo apt upgrade to update your Ubuntu system."}
+{"text": "How do I install software on Ubuntu?"}
+{"text": "Use sudo apt install packagename to install software."}
+{"text": "How do I uninstall a package?"}
+{"text": "Use sudo apt remove packagename to uninstall it."}
+{"text": "How do I check the Linux kernel version?"}
+{"text": "Run uname -r to see the kernel version."}
+{"text": "How do I check system info?"}
+{"text": "Run uname -a for a full system info summary, or neofetch for a pretty overview."}
+{"text": "How do I reboot Linux?"}
+{"text": "Use sudo reboot to restart the system."}
+{"text": "How do I shut down Linux?"}
+{"text": "Use sudo shutdown now to shut down immediately."}
+{"text": "What is cron?"}
+{"text": "Cron is a Linux scheduler that runs commands at specified times automatically."}
+{"text": "How do I set up a cron job?"}
+{"text": "Run crontab -e to edit your cron jobs. Each line follows: minute hour day month weekday command"}
+{"text": "How do I list my cron jobs?"}
+{"text": "Run crontab -l to list all your current cron jobs."}
+{"text": "What is SSH?"}
+{"text": "SSH (Secure Shell) lets you securely connect to remote machines over a network."}
+{"text": "How do I connect to a server via SSH?"}
+{"text": "Use ssh username@hostname or ssh username@IP to connect."}
+{"text": "How do I copy files over SSH?"}
+{"text": "Use scp localfile user@host:/remote/path to securely copy files."}
+{"text": "What is rsync?"}
+{"text": "rsync is a fast file sync tool. Use rsync -av source/ dest/ to sync folders."}
+{"text": "What is a package manager?"}
+{"text": "A package manager automates installing, updating, and removing software. apt and yum are common examples."}
+{"text": "What is git?"}
+{"text": "Git is a version control system that tracks changes in files and helps teams collaborate on code."}
+{"text": "How do I initialize a git repo?"}
+{"text": "Run git init in your project folder to start tracking it with git."}
+{"text": "How do I clone a repository?"}
+{"text": "Use git clone https://github.com/user/repo.git to clone a remote repository."}
+{"text": "How do I check git status?"}
+{"text": "Run git status to see what files have changed or are staged."}
+{"text": "How do I add files to git?"}
+{"text": "Use git add filename or git add . to stage all changed files."}
+{"text": "How do I commit changes?"}
+{"text": "Use git commit -m 'Your message' to save staged changes with a message."}
+{"text": "How do I push to GitHub?"}
+{"text": "Use git push origin main to push your commits to the remote repository."}
+{"text": "How do I pull updates from GitHub?"}
+{"text": "Run git pull to fetch and merge the latest changes from the remote."}
+{"text": "How do I create a branch?"}
+{"text": "Use git checkout -b branchname to create and switch to a new branch."}
+{"text": "How do I merge branches?"}
+{"text": "Switch to main with git checkout main, then run git merge branchname."}
+{"text": "What is a merge conflict?"}
+{"text": "A merge conflict happens when two branches change the same part of a file differently."}
+{"text": "How do I undo the last commit?"}
+{"text": "Use git reset HEAD~1 to undo the last commit but keep the changes."}
+{"text": "How do I see git log?"}
+{"text": "Run git log to see the commit history, or git log --oneline for a compact view."}
+{"text": "What is .gitignore?"}
+{"text": ".gitignore is a file listing patterns of files that git should ignore and not track."}
+{"text": "How do I ignore a file in git?"}
+{"text": "Add the filename or pattern to your .gitignore file."}
+{"text": "Hey, what's up?"}
+{"text": "Not much! Just ready to help you out. What do you need?"}
+{"text": "Can you help me debug my code?"}
+{"text": "Of course! Paste your code and describe the issue and I'll take a look."}
+{"text": "I got an error: permission denied."}
+{"text": "That usually means you need elevated permissions. Try running the command with sudo."}
+{"text": "My script isn't running."}
+{"text": "Make sure it's executable: chmod +x script.sh, then run it with ./script.sh"}
+{"text": "I can't find a file."}
+{"text": "Try using find . -name 'filename' to search recursively from the current directory."}
+{"text": "My terminal is frozen."}
+{"text": "Try pressing Ctrl+C to interrupt, or Ctrl+Z to suspend the current process."}
+{"text": "How do I exit vim?"}
+{"text": "Press Esc, then type :q! and hit Enter to force quit without saving."}
+{"text": "How do I save in vim?"}
+{"text": "Press Esc, then type :wq and hit Enter to save and quit."}
+{"text": "What is nano?"}
+{"text": "nano is a simple terminal text editor. Press Ctrl+X to exit, and Y to save."}
+{"text": "How do I open a file in nano?"}
+{"text": "Run nano filename.txt to open a file in nano."}
+{"text": "How do I use awk?"}
+{"text": "awk is great for processing text. Example: awk '{print $1}' file.txt prints the first column."}
+{"text": "How do I use sed?"}
+{"text": "sed is for stream editing. Example: sed 's/old/new/g' file.txt replaces all occurrences."}
+{"text": "What is a pipe in Linux?"}
+{"text": "A pipe | passes the output of one command as input to another. Example: ls | grep txt"}
+{"text": "What is stdin and stdout?"}
+{"text": "stdin is standard input (keyboard), stdout is standard output (terminal screen)."}
+{"text": "How do I redirect output to a file?"}
+{"text": "Use > to overwrite: command > file.txt, or >> to append: command >> file.txt"}
+{"text": "How do I redirect errors?"}
+{"text": "Use 2> to redirect stderr: command 2> error.log"}
+{"text": "How do I redirect both stdout and stderr?"}
+{"text": "Use command > output.txt 2>&1 to capture both in the same file."}
+{"text": "What is /dev/null?"}
+{"text": "/dev/null is a special file that discards everything written to it. Use it to suppress output."}
+{"text": "How do I discard command output?"}
+{"text": "Run command > /dev/null 2>&1 to silence all output."}
+{"text": "What is the difference between > and >>?"}
+{"text": "> overwrites the file; >> appends to it."}
+{"text": "What is a variable in bash?"}
+{"text": "A variable stores a value. Set it with name=value and read it with $name."}
+{"text": "How do I use if-else in bash?"}
+{"text": "if [ condition ]; then echo yes; else echo no; fi"}
+{"text": "How do I compare numbers in bash?"}
+{"text": "Use -eq for equal, -ne for not equal, -lt for less than, -gt for greater than."}
+{"text": "How do I compare strings in bash?"}
+{"text": "Use = for equal and != for not equal inside [ ]."}
+{"text": "How do I write a while loop in bash?"}
+{"text": "while [ condition ]; do commands; done"}
+{"text": "How do I write a function in bash?"}
+{"text": "myfunc() { echo 'Hello'; } then call it with myfunc"}
+{"text": "How do I pass arguments to a bash script?"}
+{"text": "Access them as $1, $2, etc. inside your script."}
+{"text": "What is $0 in bash?"}
+{"text": "$0 is the name of the script being run."}
+{"text": "What is $# in bash?"}
+{"text": "$# is the number of arguments passed to the script."}
+{"text": "What is $@ in bash?"}
+{"text": "$@ refers to all arguments passed to the script."}
+{"text": "How do I check the exit code of a command?"}
+{"text": "Use echo $? right after running a command to see its exit code. 0 means success."}
+{"text": "What does exit 0 mean?"}
+{"text": "exit 0 means the script ended successfully with no errors."}
+{"text": "What is a shebang line?"}
+{"text": "The shebang #!/bin/bash at the top of a script tells the system which interpreter to use."}
+{"text": "How do I add comments in bash?"}
+{"text": "Use # to add comments. Everything after # on a line is ignored."}
+{"text": "What is the difference between single and double quotes in bash?"}
+{"text": "Single quotes preserve everything literally. Double quotes allow variable expansion."}
+{"text": "Can you give me an example bash script?"}
+{"text": "Sure! #!/bin/bash\necho 'Hello World'\nfor i in 1 2 3; do echo $i; done"}
+{"text": "What is Python used for?"}
+{"text": "Python is used for scripting, data science, web development, automation, AI, and more."}
+{"text": "Is Python easy to learn?"}
+{"text": "Yes! Python has clean syntax and is one of the most beginner-friendly languages."}
+{"text": "What are some popular Python libraries?"}
+{"text": "NumPy, Pandas, Requests, Flask, Django, TensorFlow, and PyTorch are very popular."}
+{"text": "What is numpy?"}
+{"text": "NumPy is a Python library for numerical computing with fast array operations."}
+{"text": "What is pandas?"}
+{"text": "Pandas is a Python library for data manipulation and analysis using DataFrames."}
+{"text": "What is a DataFrame?"}
+{"text": "A DataFrame is a 2D table-like data structure in pandas with rows and columns."}
+{"text": "How do I read a CSV in Python?"}
+{"text": "Use pandas: import pandas as pd; df = pd.read_csv('file.csv')"}
+{"text": "How do I write a CSV in Python?"}
+{"text": "Use df.to_csv('output.csv', index=False) with a pandas DataFrame."}
+{"text": "What is a lambda function?"}
+{"text": "A lambda is an anonymous one-liner function. Example: f = lambda x: x * 2"}
+{"text": "What is map() in Python?"}
+{"text": "map() applies a function to every item in an iterable. Example: list(map(str, [1,2,3]))"}
+{"text": "What is filter() in Python?"}
+{"text": "filter() keeps only items for which a function returns True."}
+{"text": "What is enumerate()?"}
+{"text": "enumerate() adds a counter to an iterable. Example: for i, val in enumerate(mylist)"}
+{"text": "What is zip()?"}
+{"text": "zip() pairs elements from two or more iterables together into tuples."}
+{"text": "What does * mean in Python function arguments?"}
+{"text": "*args collects extra positional arguments into a tuple."}
+{"text": "What does ** mean in Python function arguments?"}
+{"text": "**kwargs collects extra keyword arguments into a dictionary."}
+{"text": "What is a decorator in Python?"}
+{"text": "A decorator wraps a function to add extra behavior. Use the @decorator syntax."}
+{"text": "What is a generator?"}
+{"text": "A generator produces values one at a time using yield, saving memory for large datasets."}
+{"text": "What is a context manager?"}
+{"text": "A context manager handles setup and teardown. The with statement uses them."}
+{"text": "What does pass do in Python?"}
+{"text": "pass is a placeholder that does nothing. It's used when syntax requires a statement."}
+{"text": "What is None in Python?"}
+{"text": "None is Python's null value, representing the absence of a value."}
+{"text": "How do I check if a variable is None?"}
+{"text": "Use if myvar is None: to check for None."}
+{"text": "What is type hinting?"}
+{"text": "Type hints annotate variable types. Example: def greet(name: str) -> str:"}
+{"text": "What is a module in Python?"}
+{"text": "A module is a Python file you can import into other scripts."}
+{"text": "How do I import a module?"}
+{"text": "Use import modulename or from modulename import function."}
+{"text": "What is __main__ in Python?"}
+{"text": "if __name__ == '__main__': ensures code only runs when the script is executed directly."}
+{"text": "What are f-strings?"}
+{"text": "f-strings let you embed expressions in strings. Example: f'Hello {name}'"}
+{"text": "How do I format a number in Python?"}
+{"text": "Use f'{value:.2f}' to format a float with 2 decimal places."}
+{"text": "What is string interpolation?"}
+{"text": "It's inserting variables into strings. f-strings are the modern Python way to do this."}
+{"text": "What is recursion?"}
+{"text": "Recursion is when a function calls itself. Always include a base case to stop it."}
+{"text": "Can you give a recursion example?"}
+{"text": "def factorial(n): return 1 if n <= 1 else n * factorial(n - 1)"}
+{"text": "What is a stack overflow in coding?"}
+{"text": "It happens when recursion goes too deep and runs out of memory for call frames."}
+{"text": "What is time complexity?"}
+{"text": "Time complexity measures how the runtime of an algorithm grows with input size."}
+{"text": "What does O(n) mean?"}
+{"text": "O(n) means linear time — the runtime grows proportionally with input size."}
+{"text": "What does O(1) mean?"}
+{"text": "O(1) means constant time — the operation takes the same time regardless of input size."}
+{"text": "What is a binary search?"}
+{"text": "Binary search finds an item in a sorted list by repeatedly halving the search range."}
+{"text": "What is a linked list?"}
+{"text": "A linked list is a chain of nodes where each node points to the next one."}
+{"text": "What is a stack data structure?"}
+{"text": "A stack is LIFO — last in, first out. Like a stack of plates."}
+{"text": "What is a queue data structure?"}
+{"text": "A queue is FIFO — first in, first out. Like a line of people."}
+{"text": "What is a hash table?"}
+{"text": "A hash table maps keys to values using a hash function for fast lookups."}
+{"text": "What is a tree data structure?"}
+{"text": "A tree is a hierarchical structure with a root node and child nodes."}
+{"text": "What is a binary tree?"}
+{"text": "A binary tree is a tree where each node has at most two children."}
+{"text": "What is an API?"}
+{"text": "An API is an interface that lets programs communicate with each other."}
+{"text": "What is a REST API?"}
+{"text": "REST is an API design style using HTTP methods like GET, POST, PUT, DELETE."}
+{"text": "How do I make an HTTP request in Python?"}
+{"text": "Use the requests library: import requests; r = requests.get('https://example.com')"}
+{"text": "How do I check the HTTP status code?"}
+{"text": "Use r.status_code after making a request. 200 means success."}
+{"text": "How do I parse JSON from an API response?"}
+{"text": "Use r.json() to automatically parse the JSON response body."}
+{"text": "What is a webhook?"}
+{"text": "A webhook is a URL that receives automated HTTP POST requests when an event occurs."}
+{"text": "What is an environment variable and why use one?"}
+{"text": "Environment variables store config like API keys outside of your code for security."}
+{"text": "How do I store API keys safely?"}
+{"text": "Put them in a .env file and use a library like python-dotenv to load them."}
+{"text": "What is dotenv?"}
+{"text": "dotenv loads variables from a .env file into your environment. Use python-dotenv in Python."}
+{"text": "What is Docker?"}
+{"text": "Docker packages apps and their dependencies into containers for consistent environments."}
+{"text": "How do I run a Docker container?"}
+{"text": "Use docker run imagename to start a container."}
+{"text": "How do I list running containers?"}
+{"text": "Run docker ps to see all running containers."}
+{"text": "How do I stop a Docker container?"}
+{"text": "Use docker stop container_id to stop a running container."}
+{"text": "What is a Dockerfile?"}
+{"text": "A Dockerfile is a script that defines how to build a Docker image step by step."}
+{"text": "What is docker-compose?"}
+{"text": "docker-compose lets you define and run multi-container apps with a YAML config file."}
+{"text": "What is a virtual machine?"}
+{"text": "A VM is an emulated computer that runs inside your physical machine."}
+{"text": "What's the difference between a VM and a container?"}
+{"text": "VMs emulate full hardware; containers share the host OS kernel and are much lighter."}
+{"text": "What is the cloud?"}
+{"text": "The cloud means using remote servers on the internet to store, manage, or process data."}
+{"text": "What is AWS?"}
+{"text": "Amazon Web Services is a major cloud platform offering compute, storage, and more."}
+{"text": "What is S3?"}
+{"text": "S3 is AWS's object storage service for storing files and data."}
+{"text": "What is a bucket in S3?"}
+{"text": "A bucket is a container in S3 where you store your files (called objects)."}
+{"text": "What is a firewall?"}
+{"text": "A firewall controls incoming and outgoing network traffic based on security rules."}
+{"text": "What is a VPN?"}
+{"text": "A VPN creates a secure, encrypted connection over the internet."}
+{"text": "What is DNS?"}
+{"text": "DNS translates human-readable domain names into IP addresses."}
+{"text": "What is localhost?"}
+{"text": "localhost refers to your own machine, with the IP address 127.0.0.1."}
+{"text": "What is a port number?"}
+{"text": "A port number identifies a specific service on a machine. HTTP uses 80, HTTPS uses 443."}
+{"text": "What does HTTP stand for?"}
+{"text": "HTTP stands for HyperText Transfer Protocol, used for transferring web content."}
+{"text": "What is HTTPS?"}
+{"text": "HTTPS is the secure version of HTTP, encrypting traffic with TLS/SSL."}
+{"text": "What is an IP address?"}
+{"text": "An IP address is a unique identifier for a device on a network. Example: 192.168.1.1"}
+{"text": "What is IPv4 vs IPv6?"}
+{"text": "IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses and has a much larger address space."}
+{"text": "What is a subnet?"}
+{"text": "A subnet is a segment of a network. Subnetting divides large networks into smaller ones."}
+{"text": "What is a MAC address?"}
+{"text": "A MAC address is the hardware address of a network interface card."}
+{"text": "What is a router?"}
+{"text": "A router directs network traffic between devices and the internet."}
+{"text": "What is a switch in networking?"}
+{"text": "A network switch connects devices within the same network and forwards data to the right device."}
+{"text": "What is latency?"}
+{"text": "Latency is the delay in data transmission, usually measured in milliseconds."}
+{"text": "What is bandwidth?"}
+{"text": "Bandwidth is the maximum rate of data transfer across a network connection."}
+{"text": "What is a CDN?"}
+{"text": "A CDN (Content Delivery Network) distributes content to servers close to users for faster loading."}
+{"text": "What is caching?"}
+{"text": "Caching stores copies of data so it can be served faster without recomputing or fetching it."}
+{"text": "What is a database?"}
+{"text": "A database is an organized system for storing and retrieving structured data."}
+{"text": "What is SQL?"}
+{"text": "SQL is a language for querying and managing relational databases."}
+{"text": "What is a SELECT statement?"}
+{"text": "SELECT * FROM tablename returns all rows and columns from a table."}
+{"text": "How do I filter SQL results?"}
+{"text": "Use WHERE: SELECT * FROM users WHERE age > 18;"}
+{"text": "What is a JOIN in SQL?"}
+{"text": "A JOIN combines rows from two tables based on a related column."}
+{"text": "What is an index in a database?"}
+{"text": "An index speeds up queries by allowing the database to find rows faster."}
+{"text": "What is NoSQL?"}
+{"text": "NoSQL databases store data in flexible formats like documents or key-value pairs instead of tables."}
+{"text": "What is MongoDB?"}
+{"text": "MongoDB is a popular NoSQL database that stores data as JSON-like documents."}
+{"text": "What is SQLite?"}
+{"text": "SQLite is a lightweight, file-based SQL database great for small apps and prototyping."}
+{"text": "What is PostgreSQL?"}
+{"text": "PostgreSQL is a powerful open-source relational database with advanced features."}
+{"text": "What is Redis?"}
+{"text": "Redis is an in-memory key-value store used for caching, sessions, and pub/sub messaging."}
+{"text": "What is ORM?"}
+{"text": "An ORM (Object-Relational Mapper) lets you interact with a database using your programming language instead of SQL."}
+{"text": "What is SQLAlchemy?"}
+{"text": "SQLAlchemy is a popular Python ORM for working with databases."}
+{"text": "Good morning!"}
+{"text": "Good morning! Hope your day is going well. What can I help you with?"}
